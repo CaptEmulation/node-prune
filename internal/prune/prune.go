@@ -99,7 +99,7 @@ var DefaultDirectories = []string{
 	"website",
 	"images",
 	"assets",
-	"example",
+	// "example",
 	"examples",
 	"coverage",
 	".nyc_output",
