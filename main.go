@@ -36,6 +36,7 @@ var exclusionGlobs arrayFlags
 var inclusionGlobs arrayFlags
 
 func main() {
+
 	debug := flag.Bool("verbose", false, "Verbose log output.")
 	flag.Var(&exclusionGlobs, "exclude", "Glob of files that should not be pruned. Can be specified multiple times.")
 	flag.Var(&inclusionGlobs, "include", "Globs of files that should always be pruned in addition to the defaults. Can be specified multiple times.")
